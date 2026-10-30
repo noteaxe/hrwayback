@@ -1,0 +1,26 @@
+
+body{
+	font: 100%/1.125 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+    margin: 2em;
+    background: #fbf6e8
+}
+
+.tag, h2 a, p > a{
+    color: rgb(113, 10, 20);
+}
+
+
+
+article {
+    border-bottom: dashed 3px;
+    padding-bottom: 1em;
+}
+
+article footer {
+    display: none;
+}
+
+article > a {
+    font-size: 1.5em;
+    border: solid 1px;
+}
