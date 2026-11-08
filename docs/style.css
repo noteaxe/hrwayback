@@ -6,6 +6,7 @@ body{
     position: relative;
 }
 
+
 .tag, h2 a, p > a, .heading, .required-tags *, .heading a, .stats a{
     color: rgb(113, 10, 20);
 }
@@ -23,6 +24,15 @@ article, .work {
     padding-bottom: 1em;
 }
 
+
+.meta{
+	border-top: dashed 3px;
+}
+
+
+.toc-heading, .message{
+	display: none;
+}
 
 .work {
     list-style: none;
@@ -67,4 +77,5 @@ ul.required-tags {
     font-weight: bold;
     font-size: 1.1em;
     padding: 0.1em 0;
+    display: none;
 }
